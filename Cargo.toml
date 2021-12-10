@@ -2,7 +2,46 @@
 name = "api-everywhere"
 version = "0.1.0"
 edition = "2021"
+license = "MIT"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+[features]
+test-using-sa = []
+restricted = []
+
 [dependencies]
+tokio = {version="1.14.0", features=["macros","rt-multi-thread"]}
+thiserror = "1"
+regex = "1.5"
+
+hyper = "0.14"
+hyper-rustls = "0.22"
+serde = "1.0"
+serde_json = "1.0"
+yup-oauth2 = "5.0"
+
+once_cell = "1.8"
+chrono = "0.4.19"
+arc-swap = "1.5.0"
+log = "0.4.14"
+
+axum = "0.4"
+tower-http = { version = "0.2.0", features = ["cors","fs"] }
+tower = { version = "0.4", features = ["util", "timeout"] }
+
+signal-hook =  "0.3"
+signal-hook-tokio = {version="0.3" , features = ["futures-v0_3"]}
+futures = "0.3"
+reqwest = {vesion ="0.11", features = ["json"]}
+
+clap = {vesion = "3.0.0-rc.4", features = ["derive"]}
+urlencoding = "2.1"
+env_logger = "0.9"
+
+[dev-dependencies]
+tokio-test = "0.4"
+
+[profile.release]
+lto = true
+

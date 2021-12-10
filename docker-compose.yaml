@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+  api-everywhere:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        BUILD_FLAG: "--release --features restricted"
+        BUILD_TARGET: release
+        #PLAYGROUND_DIR: ./src/playground_html
+        #SERVICE_ACCOUNT_FILE: ./dev-secret/test-sa-key.json
+    ports:
+      - 4000:4000
