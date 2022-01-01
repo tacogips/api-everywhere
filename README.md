@@ -21,7 +21,10 @@ Not Production ready yet.
 
 3. Docker build with `Dockerfile`. see `docker-compose.yaml`
 
-## References Link
+## References links about service account and Spread sheet API
+
+[Using OAuth 2.0 for Server to Server Applications](https://developers.google.com/identity/protocols/oauth2/service-account#overview)
+
 [How to read from and write into Google Sheets from your robots](https://robocorp.com/docs/development-guide/google-sheets/interacting-with-google-sheets)
 
 [(japanese)サービスアカウントで認証してGoogleSpreadsheetからデータを取得](https://dream-yt.github.io/post/spreadsheet-via-service-account/)
