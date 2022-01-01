@@ -29,5 +29,5 @@ Not Production ready yet.
 
 ## TODO
 - [ ] Column range specification
-- [ ] More test
-- [ ] Add other API beside spread sheet (like notion?)
+- [ ] More unit test and validation
+- [ ] Other API support beside Google spread sheet (like notion?)
