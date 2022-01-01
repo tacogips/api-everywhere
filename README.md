@@ -2,9 +2,7 @@
 
 Turn your google spread sheet into a json API.
 
-see [example app](https://api-everywhere-emyxjnbuoq-an.a.run.app/?sheetUrl=
-https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1HA4munsvl5UUlb9DKmJvhrwfGlSQ97hSQZf13M3ZO4Y%2Fedit%23gid%3D0
-)
+see [example app](https://api-everywhere-emyxjnbuoq-an.a.run.app/?sheetUrl=https%3A%2F%2Fdocs.google.com%2Fspreadsheets%2Fd%2F1HA4munsvl5UUlb9DKmJvhrwfGlSQ97hSQZf13M3ZO4Y%2Fedit%23gid%3D0)
 
 Not Production ready yet.
 
@@ -24,10 +22,12 @@ Not Production ready yet.
 3. Docker build with `Dockerfile`. see `docker-compose.yaml`
 
 ## References Link
+[How to read from and write into Google Sheets from your robots](https://robocorp.com/docs/development-guide/google-sheets/interacting-with-google-sheets)
+
 [(japanese)サービスアカウントで認証してGoogleSpreadsheetからデータを取得](https://dream-yt.github.io/post/spreadsheet-via-service-account/)
 
 
 ## TODO
-
+- [ ] Column range specification
 - [ ] More test
 - [ ] Add other API beside spread sheet (like notion?)
