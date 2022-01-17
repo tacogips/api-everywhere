@@ -149,7 +149,7 @@ const ParameterArea: React.FC<Props> = ({ fetchData, searching }) => {
             <span className="block inline">
               This tool and API are published with{" "}
               <span className="underline">
-                <a href="http://github.com/tacogips/api-everywhere/LISENCE">
+                <a href="https://github.com/tacogips/api-everywhere/blob/main/LICENSE">
                   MIT Licence
                 </a>
               </span>
