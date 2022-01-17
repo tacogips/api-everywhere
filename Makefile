@@ -17,7 +17,7 @@ run-local:
 	cargo run -- -s=./dev-secret/test-sa-key.json
 
 build-playground:
-	cd playground && yarn export-prd && rm -rf ../src/playground_html && cp -r out ../src/playground_html
+	cd playground && yarn install && yarn export-prd && rm -rf ../src/playground_html && cp -r out ../src/playground_html
 
 build-prd-restricted:
 	cargo build --release --features=restricted

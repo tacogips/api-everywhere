@@ -69,6 +69,7 @@ where
         )
         .layer(
             CorsLayer::new()
+                .allow_headers(any())
                 .allow_origin(any())
                 .allow_methods(vec![Method::GET]),
         )
