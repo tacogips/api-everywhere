@@ -1,0 +1,5 @@
+/target
+dev-secret/*.json
+src/*.json
+**/node_modules
+**/.next
